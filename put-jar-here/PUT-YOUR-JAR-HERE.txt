@@ -1,0 +1,17 @@
+PUT YOUR LYCANITES MOBS JAR IN THIS FOLDER
+==========================================
+
+Copy the Lycanites Mobs jar out of your mods folder and put it here.
+
+It is the file called something like:
+
+    lycanitesmobs-1.12.2-2.0.8.10.jar
+
+Where is my mods folder?
+  - Official Minecraft launcher:  %appdata%\.minecraft\mods
+  - CurseForge / Prism / MultiMC / ATLauncher:  the instance's "mods" folder
+
+Put ONLY that one jar in here. Keep the original where it is until the patcher
+has finished, so you still have a working game if anything goes wrong.
+
+Then run Patch-Windows.bat (Windows) or Patch-Linux.sh (Linux).

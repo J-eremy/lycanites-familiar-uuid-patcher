@@ -1,0 +1,17 @@
+LYCANITES MOBS - FAMILIAR UUID PATCHER
+======================================
+
+1. Copy your lycanitesmobs jar into the "put-jar-here" folder.
+
+2. Run the patcher:
+      Windows:  double-click Patch-Windows.bat
+      Linux:    open a terminal here and run:  bash Patch-Linux.sh
+
+3. Press Enter when it asks which UUID to use.
+
+4. Copy BOTH files from the "patched" folder into your Minecraft
+   "mods" folder, after deleting the old lycanitesmobs jar there.
+
+Full instructions and troubleshooting: see README.md
+
+Nothing is uploaded anywhere. Your original jar is never modified.

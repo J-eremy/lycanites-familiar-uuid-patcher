@@ -1,0 +1,15 @@
+# ---------------------------------------------------------------------------
+# Optional: the Minecraft UUID this patcher should bake in.
+#
+# The patcher asks for a UUID every time you run it, and shows the value below
+# as the default (just press Enter to accept it).
+#
+# To use a different UUID without typing it every time, replace the UUID on the
+# last line with your own. It must look like this:
+#
+#     12345678-1234-1234-1234-123456789abc
+#
+# Lines starting with # are ignored.
+# ---------------------------------------------------------------------------
+
+a0aed996-9645-44e2-9468-5679fc25f44a

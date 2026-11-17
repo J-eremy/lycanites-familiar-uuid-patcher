@@ -1,0 +1,12 @@
+# User-supplied input and generated output (never commit these)
+put-jar-here/*.jar
+patched/*.jar
+patched/*-uuid.txt
+
+# Maintainer build artifacts
+dev/build/
+dev/libs/
+__pycache__/
+*.pyc
+*.tmp
+*.part

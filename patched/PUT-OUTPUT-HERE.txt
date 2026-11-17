@@ -1,0 +1,12 @@
+The patched files are written into this folder.
+===============================================
+
+After the patcher has run you will find two files here:
+
+    lycanitesmobs-1.12.2-2.0.8.10.jar    the patched mod jar
+    lycanitesmobs-familiar-uuid.txt      tells the patched jar which UUID to use
+
+Copy BOTH of them into your Minecraft "mods" folder, and remove the old
+Lycanites Mobs jar from there first (do not keep two copies of the mod).
+
+Delete this text file if you like; it is only here so the folder exists.

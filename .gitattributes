@@ -1,0 +1,3 @@
+# Keep the Windows launcher CRLF even when checked out on Linux/macOS.
+* text=auto eol=lf
+*.bat text eol=crlf
