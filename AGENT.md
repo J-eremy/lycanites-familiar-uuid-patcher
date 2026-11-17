@@ -48,6 +48,7 @@ classes/               prebuilt patched classes, copied into the user's jar
 put-jar-here/          the user drops their unpatched jar here (gitignored)
 patched/               patcher output (gitignored, except the placeholder text)
 TECHNICAL.md           reverse-engineering write-up of the mod
+PROMPT.md              self-contained source-only build prompt for a paranoid end user
 AGENT.md               this file
 dev/                   maintainer build: sources, stubs, tests, BuildTool
   src/com/lycanitesmobs/core/pets/PlayerFamiliars.java   the patched class
@@ -255,9 +256,12 @@ Expected: seven `ok:`/`PASS` lines and `all checks passed`.
    the user's machine need no JDK. It must stay in sync with `dev/src/`.
 10. **Never commit** user jars or generated output (`put-jar-here/*.jar`, `patched/*.jar`,
     `dev/build/`, `dev/libs/`). `.gitignore` covers them; do not "fix" a dirty tree by adding them.
-11. **Keep both patchers in sync.** Same validation, same entry list, same verification, same
+11. **PROMPT.md embeds a copy of `PlayerFamiliars.java`.** It is a standalone build recipe for
+    users who do not want to run this repo's files. Whenever the class changes, regenerate the
+    copy inside PROMPT.md, or the two will drift.
+12. **Keep both patchers in sync.** Same validation, same entry list, same verification, same
     messages. They are separate implementations of one contract (section 5.2).
-12. **Do not run `git commit` without being asked**; leave changes staged-but-uncommitted unless the
+13. **Do not run `git commit` without being asked**; leave changes staged-but-uncommitted unless the
     owner requests a commit.
 
 Deliberately unchanged from the original mod: expired-cert trust-all, no HTTP timeouts,

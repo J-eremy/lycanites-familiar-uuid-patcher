@@ -241,6 +241,7 @@ You only ever need to run one file: `Patch-Windows.bat` or `Patch-Linux.sh`.
 | `classes/` | the patched code that gets put into the jar |
 | `dev/` | source code and build scripts (for developers only) |
 | `TECHNICAL.md` | what the mod does and what the patch changes |
+| `PROMPT.md` | a self-contained prompt that makes an AI agent build the patch itself, from source, without downloading anything from this repo |
 | `AGENT.md` | instructions for an AI/developer rebuilding this from scratch |
 
 ---
