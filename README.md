@@ -8,6 +8,20 @@ Nothing else about the mod changes. Your world, config, items and creatures are 
 You do **not** need to install Java, Python, Forge, or any developer tools to use this on Windows.
 On Linux you need Python 3, which almost every distribution already has.
 
+## Why this exists
+
+Someone's Microsoft account was compromised, and Microsoft support could not or would not help
+recover it, so they had to start over on a new account. Their donator familiar is registered on the
+Lycanites service against the UUID of the old account, so on the new account it simply never
+appears.
+
+This patcher makes the mod ask the service for the familiar list of the old UUID while the player
+uses the new account, so the familiar follows them again.
+
+It is a stopgap, not a permanent fix. It gives nothing the old account did not already have, and
+once the Lycanites team can move the familiar to the new UUID it should be removed: restore the
+original jar and delete the `.txt` (see "Removing the patch" below).
+
 ---
 
 ## The fast version
